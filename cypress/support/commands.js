@@ -18,7 +18,16 @@
 //
 //
 // -- This is a dual command --
+
+const { Pega } = require("./pages/pega/pega.page")
+
 // Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
+    Cypress.Commands.add("login",(username, password)=>{
+        Pega.elements.username_input().type(username)
+        Pega.elements.password_input().type(password)
+        Pega.elements.login_button().click()
+    })
+
 //
 //
 // -- This will overwrite an existing command --
