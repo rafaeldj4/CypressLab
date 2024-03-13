@@ -4,7 +4,7 @@ Este repositorio es mi espacio personal de aprendizaje y práctica con Cypress, 
 
 ## Acerca de este repositorio
 
-CypressLab es mi espacio personal para aplicar y mejorar mis habilidades en Cypress, una herramienta poderosa para pruebas automatizadas en aplicaciones web. Aquí encontrarás una variedad de proyectos y ejercicios diseñados para mi propio aprendizaje y práctica. Cada proyecto tiene su propio directorio con instrucciones detalladas y ejemplos para que pueda seguir y aplicar mis conocimientos.
+Aquí encontrarás una variedad de proyectos y ejercicios diseñados para mi propio aprendizaje y práctica. Cada proyecto tiene su propio directorio con instrucciones detalladas y ejemplos para que pueda seguir y aplicar mis conocimientos.
 
 ## Contenido
 
