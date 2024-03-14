@@ -10,6 +10,13 @@ module.exports = defineConfig({
       MCP_STG: "https://ssofrontend-portal-unico-sso-stg.apps.newprod.prod.cloudapps.claro.com.do/login",
       MCP_PROD: "https://usuario.claro.com.do/login"
     },
-    specPattern: "cypress/e2e/**/*.js"
+    specPattern: "cypress/e2e/**/*.js",
+    screenshotOnRunFailure: true,
+    trashAssetsBeforeRuns: true,
+    pageLoadTimeout: 10000
   },
+  retries:{
+    runMode: 0,
+    openMode:0
+  }
 });
